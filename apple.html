@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="apple.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row bg-dark fixed-top border-radius: 15px;" id="nav">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <li id="sign1" class="fa fa-apple"><a href=""> Store</a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="">Mac</a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="">iPhone</a> </li>
+                    </div>
+                    <div class="col">
+                        <li><a href="">iPad </a> </li>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <li><a href="">Watch </a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="">Visions </a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="">AirPods </a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="">TV&Home </a></li>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <li><a href="">Entertainment</a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="">Support </a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="">Accessories </a></li>
+                    </div>
+                    <div class="col" id="sign2">
+                        <li id="sign2" class="fa fa-search"></li>
+                        <li id="sign3" class="fa fa-shopping-bag"></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="boy">
+            <img src="data:image/png;base64,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"
+                alt="">
+            <h1>Vision Pro</h1>
+            <h4>Wel COme To The Era Of Special Computing</h4>
+            <h5>Learn more ></h5>
+            <h6>buy ></h6>
+        </div>
+        <div class="row" id="vedio">
+            <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/welcome/hero_startframe__ca87a9qj9rma_large.jpg"
+                alt="gyf">
+        </div>
+
+        <div class="row">
+            <div class="col" id="image1"></div>
+            <div class="col" id="image2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col" id="image3"></div>
+            <div class="col" id="image4"></div>
+        </div>
+
+        <div class="row">
+            <div class="col" id="image5"></div>
+            <div class="col" id="image6"></div>
+        </div>
+
+
+        <div style="margin-top:100px;">
+            <div style="color: rgb(253, 251, 251); background-color: darkgrey;">
+                <h1 style="padding-left: 40%; padding-top: -100px; font-size: 50px;">ABOUT US</h1>
+                <p style="padding-top: 80px; ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                    voluptas eius repellat obcaecati, voluptatem ipsa neque beatae placeat ducimus. Rerum provident, non
+                    eligendi nisi ipsa, numquam quis corrupti dolorem iure animi hic repudiandae ducimus soluta suscipit
+                    vero, eius ad sint voluptas rem autem. Provident, fugit nobis? Eligendi adipisci enim sequi sit
+                    ullam, obcaecati eaque dolorem temporibus mollitia autem libero, voluptatum fugiat necessitatibus,
+                    expedita quod excepturi? In cum nobis incidunt unde labore assumenda ipsam, molestiae sit
+                    consequuntur facere possimus quo sequi impedit iure nemo maiores ratione. Nostrum quibusdam aperiam
+                    expedita at nobis nesciunt cupiditate! Perspiciatis dolorem, quia vitae voluptas dignissimos quam.
+                </p>
+            </div>
+            <div class="row" style="margin-top: 200px; background-color: black; color: azure; cursor: pointer;;">
+                <div class="col-1">SHOP & LEARN <br>.Store <br>.Mac <Br>.Ipad</Br>.iPhone <br>.Watch <br>.Vision
+                    <br>.AirPods <br>.TV&Home</div>
+                <div class="col-2">ACCOUNT <br>.Manage your ID <br>.Apple Store Account <br>.i.cloud</div>
+                <div class="col-3">APPSTORE</div>
+                <div class="col-3">FOR BUSINESS</div>
+                <div class="col-3">APPLE VALUES</div>
+            </div>
+        </div>
+        @apple.com
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
