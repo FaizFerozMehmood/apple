@@ -5,119 +5,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="apple.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-
 <body>
-    <div class="container-fluid">
-        <div class="row bg-dark fixed-top border-radius: 15px;" id="nav">
-            <div class="col">
-                <div class="row">
-                    <div class="col">
-                        <li id="sign1" class="fa fa-apple"><a href=""> Store</a></li>
-                    </div>
-                    <div class="col">
-                        <li><a href="">Mac</a></li>
-                    </div>
-                    <div class="col">
-                        <li><a href="">iPhone</a> </li>
-                    </div>
-                    <div class="col">
-                        <li><a href="">iPad </a> </li>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="row">
-                    <div class="col">
-                        <li><a href="">Watch </a></li>
-                    </div>
-                    <div class="col">
-                        <li><a href="">Visions </a></li>
-                    </div>
-                    <div class="col">
-                        <li><a href="">AirPods </a></li>
-                    </div>
-                    <div class="col">
-                        <li><a href="">TV&Home </a></li>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="row">
-                    <div class="col">
-                        <li><a href="">Entertainment</a></li>
-                    </div>
-                    <div class="col">
-                        <li><a href="">Support </a></li>
-                    </div>
-                    <div class="col">
-                        <li><a href="">Accessories </a></li>
-                    </div>
-                    <div class="col" id="sign2">
-                        <li id="sign2" class="fa fa-search"></li>
-                        <li id="sign3" class="fa fa-shopping-bag"></li>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="boy">
-            <img src="data:image/png;base64,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"
-                alt="">
-            <h1>Vision Pro</h1>
-            <h4>Wel COme To The Era Of Special Computing</h4>
-            <h5>Learn more ></h5>
-            <h6>buy ></h6>
-        </div>
-        <div class="row" id="vedio">
-            <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/welcome/hero_startframe__ca87a9qj9rma_large.jpg"
-                alt="gyf">
-        </div>
-
-        <div class="row">
-            <div class="col" id="image1"></div>
-            <div class="col" id="image2"></div>
-        </div>
-
-        <div class="row">
-            <div class="col" id="image3"></div>
-            <div class="col" id="image4"></div>
-        </div>
-
-        <div class="row">
-            <div class="col" id="image5"></div>
-            <div class="col" id="image6"></div>
-        </div>
+  <div class="container-fluid ">
+  <div class="row bg-dark fixed-top "  id="nav">
+    <div class="col fa fa-apple text-end fa-2x"   id="nav1"></div>
+    <div class="col">store</div>
+    <div class="col">mac</div>
+    <div class="col">iphone</div>
+    <div class="col" >watch</div>
+    <div class="col">vision</div>
+    <div class="col">earpods</div>
+    <div class="col">TV&homes</div>
+    <div class="col">watch</div>
+    <div class="col">entertainment</div>
+    <div class="col fa fa-shopping-bag text-center fa-2x"></div>
+  <div class="col fa fa-search fa-2x"></div>
+  </div>
 
 
-        <div style="margin-top:100px;">
-            <div style="color: rgb(253, 251, 251); background-color: darkgrey;">
-                <h1 style="padding-left: 40%; padding-top: -100px; font-size: 50px;">ABOUT US</h1>
-                <p style="padding-top: 80px; ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                    voluptas eius repellat obcaecati, voluptatem ipsa neque beatae placeat ducimus. Rerum provident, non
-                    eligendi nisi ipsa, numquam quis corrupti dolorem iure animi hic repudiandae ducimus soluta suscipit
-                    vero, eius ad sint voluptas rem autem. Provident, fugit nobis? Eligendi adipisci enim sequi sit
-                    ullam, obcaecati eaque dolorem temporibus mollitia autem libero, voluptatum fugiat necessitatibus,
-                    expedita quod excepturi? In cum nobis incidunt unde labore assumenda ipsam, molestiae sit
-                    consequuntur facere possimus quo sequi impedit iure nemo maiores ratione. Nostrum quibusdam aperiam
-                    expedita at nobis nesciunt cupiditate! Perspiciatis dolorem, quia vitae voluptas dignissimos quam.
-                </p>
-            </div>
-            <div class="row" style="margin-top: 200px; background-color: black; color: azure; cursor: pointer;;">
-                <div class="col-1">SHOP & LEARN <br>.Store <br>.Mac <Br>.Ipad</Br>.iPhone <br>.Watch <br>.Vision
-                    <br>.AirPods <br>.TV&Home
-                </div>
-                <div class="col-2">ACCOUNT <br>.Manage your ID <br>.Apple Store Account <br>.i.cloud</div>
-                <div class="col-3">APPSTORE</div>
-                <div class="col-3">FOR BUSINESS</div>
-                <div class="col-3">APPLE VALUES</div>
-            </div>
-        </div>
-        @apple.com
+  <div class="row align-items-center" id="row2">
+    <img src="https://www.apple.com/v/apple-vision-pro/c/images/overview/hero/portrait_base__bwsgtdddcl7m_small_2x.jpg" alt="">
+    <h1 class="fa fa-apple  ">Vision Pro</h1>
+<h5>Wel Come To The Era Of Spatial Computing</h5>
+<h6>Learn more  ></h6>
+<p>Buy  ></p>
+  </div>
+
+
+  <div class="row" >
+    <div class="col" id="image1"><img src="data:image/jpeg;base64,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" alt=""></div>
+    <div class="col" id="image2"><img src="https://i.etsystatic.com/22354396/r/il/a9d15c/4515036004/il_600x600.4515036004_lfwz.jpg" alt=""> </div>
+  </div>
+</div>
+
+ <div class="row" id="image3">
+  <img src="New folder/6055d61f-bd05-41bb-8d35-ded0b825d30d.jpg" alt="">
+ </div> 
+
+ <div class="row" id="watches">
+  <div class="col" id="watch1"><img src="New folder/64be05be-a3a6-496f-bdf3-e0c1cbae3cda.jpg" alt=""></div>
+  <div class="col" id="watch2"> <img src="New folder/d32901e9-8f6f-4377-8790-aedffb401af9.jpg" alt=""></div>
+ </div>
+
+ <div class="row" id="cards">
+  <div class="col-8" id="card1"><img src="New folder/a800b4dd-3d9b-47fd-bcd0-17073c3fdfe5.jpg" alt=""></div>
+  <div class="col-4" id="card2"><img src="New folder/83b377cf-07ab-4b64-adea-77fbda6457e8.jpg" alt=""></div>
+ </div>
+
+
+ <div class="row" id="man1">
+  <img src="New folder/download (1).jpg" alt="">
+ </div>
+
+
+ <div class="row" id="about">
+  <h2>ABOUT US</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti ducimus voluptate ad consequatur vero ab optio beatae? Officiis a voluptatibus quidem exercitationem quos ex eius voluptatum, sed voluptatem ad nihil eum odit cum provident ipsam sint porro quibusdam et ipsa nisi nulla sunt! Blanditiis cupiditate veniam enim ad, quis eos, odit eaque qui itaque praesentium autem, expedita tempora! Eaque ipsam nulla quia. Voluptates qui sit ullam fugit suscipit impedit eligendi ducimus perspiciatis sint enim maxime neque consectetur voluptate laboriosam veniam odio exercitationem, iusto maiores minima eos eveniet officia quis eius labore! Ullam architecto debitis officiis? Repellendus recusandae necessitatibus libero officia nesciunt enim ea nulla quam vero sed ratione, error sapiente reprehenderit, dignissimos magni eligendi totam sit pariatur velit praesentium. Totam laudantium reprehenderit aut minus officia, culpa doloribus voluptatem repellendus consequatur repudiandae unde libero incidunt voluptas! Non dignissimos minima facilis tempora sunt perferendis. Harum, vel aut. Pariatur enim blanditiis odit sunt soluta quia facere modi quae. Tenetur, quod molestiae obcaecati dignissimos repellendus ratione fugiat perferendis ducimus deleniti dolorum ea labore corporis minus eos error blanditiis velit soluta placeat explicabo dolor voluptatibus sunt. Praesentium quas, excepturi dignissimos officia fugit nobis laborum quos. Nihil aliquam perspiciatis eaque est corporis sequi! Eos, facere?</p>
+ </div>
+
+<div id="footer">
+  <div class="row" >
+    <div class="col">
+      <h6>AppStore</h6>
+      <ul>
+        <li>hkj</li>
+        <li>ghj</li>
+        <li>gkjh</li>
+        <li>kjvhjh</li>
+        <li>kh</li>
+        <li>vkjh</li>
+        <li>vkjh</li>
+        <li>cyg</li>
+      </ul>
     </div>
+
+    <div class="col">
+      <h6>AppStore</h6>
+      <ul>
+        <li>hlkjdi</li>
+        <li>kjlj</li>
+        <li>lkjlkjkjh</li>
+        <li>jni</li>
+        <li>kjhlkj</li>
+        <li>blkjl</li>
+        <li>kjjo</li>
+        <li>giu</li>
+      </ul>
+    </div>
+
+
+    <div class="col">
+      <h6>AppStore</h6>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    <div class="col">
+      <h6>AppStore</h6>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    
+  </div>
+</div>
+ 
+
+
+</div>
+
+
 
 
 

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    display: block;
+    width: 50%;
+    background-color: rgb(4, 4, 4);
+}
+
+#nav {
+cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(187, 186, 186);
+    /* margin: 0px 110px; */
+   height: 50px;
+   padding: 0px 110px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-transform: capitalize;
+
+}
+
+#row2 img{
+    height: 700px;
+    width: 60%;
+margin-left: 250px;
+    z-index: 1;
+}
+
+#row2 h1{
+    margin-left: 550px;  
+     margin-top:  -250px;
+   z-index: 1;
+   font-size: 50px;
+ 
+
+   
+}
+
+#row2 h5{
+    margin-left: 480px; 
+ margin-top: -150px;
+    z-index: 1; 
+}
+
+#row2 h6{
+     margin-left: 550px; 
+     margin-top: -80px; 
+    font-size: 20px;
+    z-index: 1; 
+    font-weight: bold;
+}
+
+#row2 p{
+    margin-left: 750px; 
+     margin-top: -70px; 
+    font-size: 20px;
+    font-weight: bold;
+     z-index: 1; 
+}
+
+ #image1{
+    height: 400px;
+    background-color: rgb(7, 7, 7);
+    background-size: contain;
+}
+#image1 img{
+    margin-top: 30px;
+    width: 100%;
+}
+#image2{
+    height: 400px;
+    background-color: rgb(11, 11, 11);
+    background-size: contain;
+}
+#image2 img{
+    margin-top: 30px;
+   height: 357px;
+    width: 100%;
+}
+#image3{
+    height: 300px;
+    background-color: rgb(6, 6, 6);
+  
+    justify-content: center;
+}
+#image3 img{
+    height: 280px;
+    width: 800px;
+}
+#watches {
+height: 400px;
+background-color: rgb(5, 5, 5);
+}
+#watch1 img{
+    width: 100%;
+    height: 380px;
+}
+#watch2 img{
+    width: 100%;
+    height: 380px;
+}
+
+#cards{
+height: 400px;
+background-color: rgb(5, 5, 5);
+}
+#card2 img{
+    height: 380px;
+    width: 100%;
+}
+#card1 img{
+    height: 380px;
+    width: 100%;
+}
+
+#man1 img{
+    width:100%;
+    height: 400px;
+    border: 10px solid black;
+}
+
+#about{
+    background-color: gray;
+}
+#about h2{
+margin-left: 600px;
+}
+
+#footer{
+    width: 100%;
+    color: azure;
+    background-color: rgb(30, 29, 29);
+    padding-top: 40px;
+    padding-left: 100px;
+    
+}
+
+#footer ul li{
+    list-style: none;
+}
